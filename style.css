@@ -1,0 +1,522 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 10px;
+  height: 100vh;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: 100vh;
+  width: 100%;
+}
+.btn_orange {
+  display: inline-block;
+  background-color: #ff5f60;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 2.9rem;
+  font-size: 18px;
+  font-family: Raleway;
+  color: #ffffff;
+}
+.btn_orange:hover {
+  background-color: #2d01f1;
+  color: #ffffff;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+.btn_orange:focus {
+  outline: none;
+}
+.btn_orange:active {
+  background-color: #ff5f60;
+}
+.btn_send {
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  width: 60px;
+  height: 40px;
+  background-color: #1f3148;
+  border-top-right-radius: 2.9rem;
+  border-bottom-right-radius: 2.9rem;
+  border: none;
+  text-align: center;
+}
+.btn_send img {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  width: 20px;
+  height: 21px;
+}
+.btn_send:hover {
+  background-color: #2d01f1;
+  color: #ffffff;
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+.btn_send:focus {
+  outline: none;
+}
+.btn_send:active {
+  background-color: #1f3148;
+}
+.main {
+  background-color: #6f11ff;
+  height: 60px;
+}
+.main-header {
+  z-index: 0;
+}
+.main-header-logo img {
+  width: 40px;
+  height: 50px;
+  display: inline-block;
+  margin: none;
+  padding: none;
+  margin-bottom: 36px;
+}
+.main-header-logo-name {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.main-header-menu a {
+  display: inline-block;
+  width: 40px;
+  height: 14px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 58px;
+  margin-top: 27px;
+}
+.main-header-menu a:hover {
+  color: #fb8122;
+  text-decoration: none;
+}
+.main-header-menu a:focus {
+  outline: none;
+}
+.main-header-menu a:active {
+  color: #ffffff;
+}
+.main-header button {
+  margin-top: 20px;
+  margin-left: 109px;
+}
+.education {
+  background-color: #6f11ff;
+  padding-bottom: 180px;
+}
+.education-main-text {
+  background: url(img/Rounded_Rectangle_1_copy_2.png) no-repeat;
+  margin-top: 84px;
+}
+.education-main-text h1 {
+  margin-top: 150px;
+  display: inline-block;
+  width: 547px;
+  height: 53px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 65px;
+  font-weight: 700;
+}
+.education-main-text p {
+  margin-top: 20px;
+  display: inline-block;
+  width: 507px;
+  height: 47px;
+  color: #ffffff;
+  font-family: "Open Sans - Semibold";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 30px;
+}
+.education-main-text button {
+  margin-top: 35px;
+  width: 150px;
+  height: 50px;
+}
+.education-main-img {
+  margin-top: 168px;
+}
+.admision-main-form {
+  position: relative;
+  bottom: 160px;
+}
+.admision-main-form-bg {
+  background-color: #183251;
+  width: 400px;
+  height: 160px;
+  position: relative;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.admision-main-form-bg-overlay {
+  margin-top: 20px;
+  position: absolute;
+  width: 399px;
+  height: 255px;
+  background-color: #ff5f60;
+  border-radius: 1rem;
+  text-align: center;
+}
+.admision-main-form-bg-overlay h3 {
+  margin-top: 50px;
+  margin-left: 46px;
+  width: 308px;
+  height: 32px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+}
+.admision-main-form-bg-overlay hr {
+  width: 76px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.admision-main-form-bg-overlay p {
+  width: 199px;
+  height: 21px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-left: 101px;
+}
+.admision-main-form-bg-overlay form {
+  margin-top: 14px;
+}
+.admision-main-form-bg-overlay form input {
+  display: inline-block;
+  margin-right: -3px;
+  width: 160px;
+  height: 40px;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border: none;
+  z-index: 0;
+  font-size: 13px;
+  text-align: center;
+  color: #a9a5a5;
+  font-family: Poppins;
+}
+.admision-main-form-bg-overlay form input:focus {
+  outline: none;
+  color: black;
+  font-size: 13px;
+}
+.admision-main-form-bg-overlay-button {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.admision-main-text {
+  position: relative;
+}
+.admision-main-text p {
+  margin-top: 46px;
+  text-align: center;
+  color: #222222;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 0;
+  line-height: 30px;
+}
+.admision-main-text #Stephanie {
+  margin-top: 18px;
+  color: #fb8122;
+  font-family: "Poppins - Semi Bold";
+  font-size: 16px;
+  font-weight: 700;
+}
+.admision-main-oranges {
+  margin-top: 30px;
+  text-align: center;
+}
+.admision-main-oranges-orange {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-color: #fb8122;
+  border-radius: 11px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.admision-main-oranges-jorange {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  opacity: 0.5;
+  background-color: #fb8122;
+  border-radius: 11px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.welcome {
+  background: url(img/Background-rows.png) no-repeat;
+  margin-top: 219px;
+}
+.welcome-header img {
+  display: inline-block;
+  width: 572px;
+  height: 499px;
+}
+.welcome-header-text {
+  margin-left: 100px;
+}
+.welcome-header-text h2 {
+  color: #333333;
+  font-family: "Raleway - Semi Bold";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 46px;
+}
+.welcome-header-text p {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 46px;
+}
+.welcome-header-text button {
+  width: 170px;
+  height: 45px;
+}
+.latest {
+  margin-top: 219px;
+  background-color: #F9F9FE;
+}
+.latest-header-img {
+  background: url(img/Background-rows2.png) no-repeat;
+  background-position-y: 50%;
+}
+.latest-header-text h2 {
+  color: #333333;
+  font-family: "Raleway - Semi Bold";
+  font-size: 36px;
+  font-weight: 400;
+}
+.latest-header-text p {
+  margin-top: 44px;
+  color: #8c8c8c;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 26.97px;
+  text-align: left;
+}
+.latest-header-text button {
+  width: 179px;
+  height: 45px;
+  margin-top: 44px;
+}
+.advantages {
+  margin-top: 190px;
+}
+.advantages-header-advantage h4 {
+  color: #333333;
+  font-family: "Raleway - Semi Bold";
+  font-size: 25px;
+  font-weight: 400;
+}
+.advantages-header-advantage p {
+  color: #8c8c8c;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 27px;
+}
+.advantages-header-advantage-rec-lightblue {
+  width: 135px;
+  height: 135px;
+  box-shadow: 0 10px 62px #86dffd;
+  background-color: #4bd2ff;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantages-header-advantage-rec-lightblue img {
+  margin: 25% 25%;
+}
+.advantages-header-advantage-rec-blue {
+  width: 135px;
+  height: 135px;
+  box-shadow: 0 10px 62px #bcaffd;
+  background-color: #694bff;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantages-header-advantage-rec-blue img {
+  margin: 25% 25%;
+}
+.advantages-header-advantage-rec-yellow {
+  width: 135px;
+  height: 135px;
+  box-shadow: 0 10px 62px #ffd7a3;
+  background-color: #ffb14b;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.advantages-header-advantage-rec-yellow img {
+  margin: 30% 25%;
+  width: 70px;
+  height: 60px;
+}
+.contacts-header {
+  margin-top: 20px;
+}
+.contacts-header-rights p {
+  display: inline-block;
+  margin-left: 7px;
+  color: #c9c9c9;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+.contacts-header-send a {
+  display: inline-block;
+  margin-left: 50px;
+  color: #c9c9c9;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+}
+.contacts-header-send a:hover {
+  color: #fb8122;
+  text-decoration: none;
+}
+.contacts-header-send a:focus {
+  outline: none;
+}
+@media (max-width: 1203px) {
+  .main-header-logo img {
+    display: inline;
+  }
+  .main-header-logo-name {
+    display: inline;
+  }
+  .main-header-menu a {
+    margin-left: 38px;
+  }
+  .contacts-header-send a {
+    margin-left: 38px;
+  }
+}
+@media (max-width: 994px) {
+  .main-header-logo {
+    text-align: center;
+  }
+  .main-header button {
+    display: none;
+  }
+  .education-main-text {
+    background: none;
+  }
+  .education-main-text button {
+    display: block;
+  }
+  .admision-main-form {
+    margin-left: 130px;
+  }
+  .welcome-header-img {
+    text-align: center;
+  }
+  .welcome-header-text {
+    margin-left: 40px;
+    text-align: center;
+  }
+  .latest-header-text {
+    text-align: center;
+  }
+  .latest-header-text p {
+    text-align: center;
+  }
+  .latest-header-img {
+    text-align: center;
+  }
+  .contacts-header-rights {
+    text-align: center;
+  }
+  .contacts-header-send {
+    text-align: center;
+  }
+}
+@media (max-width: 780px) {
+  .education-main-img {
+    display: none;
+  }
+  .admision-main-form {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .admision-main-form-bg {
+    background: none;
+  }
+  .contacts-header-send a {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .education-main-text h1 {
+    font-size: 40px;
+  }
+  .education-main-text p {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .admision-main-form {
+    margin-left: 0;
+  }
+  .welcome-header-img {
+    display: none;
+  }
+  .latest-header-img {
+    display: none;
+  }
+}
+@media (max-width: 460px) {
+  .admision-main-form-bg-overlay {
+    width: 250px;
+    margin-left: 35px;
+  }
+  .admision-main-form-bg-overlay h3 {
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 7px;
+  }
+  .admision-main-form-bg-overlay p {
+    font-size: 13px;
+    margin-left: 7px;
+  }
+}
